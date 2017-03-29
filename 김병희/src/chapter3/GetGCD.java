@@ -13,7 +13,7 @@ public class GetGCD {
 			System.out.println(GCD(num1,num2));
 			
 		}catch(NumberFormatException e){
-			
+			System.out.println(e.getMessage());
 		}
 	}
 	
